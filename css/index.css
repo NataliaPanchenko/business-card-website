@@ -1,17 +1,16 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-
-.main {
+main {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     width: 1200px;
     margin: 0 auto;
 }
 
 .main-content {
     background-color: #ffffff;
-    padding: 100px 80px;
+    padding: 50px 80px;
 }
 
 .about {
@@ -25,7 +24,6 @@ body {
     font-size: 45px;
     line-height: 55px;
     color: #000000;
-    margin-bottom: 25px;
 }
 
 .about-description {
@@ -101,8 +99,6 @@ body {
     color: #595959;
 }
 
-.education {}
-
 .university {
     font-style: normal;
     font-weight: 700;
@@ -123,28 +119,36 @@ body {
 
 
 .sidebar {
-    background-color: rosybrown;
-    padding-top: 40px;
-    width 370px;
+    background-color: white;
+    padding-top: 10px;
 }
 
 .photo {
-    width: 400px;
+    width: 300px;
     margin-bottom: 5px;
+    border-radius: 50%;
 }
 
-.contacts, 
 .tech-skills, 
 .soft-skills  {
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .contacts {
     margin-bottom: 50px;
 }
 
+.contacts-title {
+    color: #000000;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
 .sidebar-title {
-    color: #ffffff;
+    color: #595959;
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -157,7 +161,7 @@ body {
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #000000;
     margin-right: 10px;
 }
 
@@ -166,7 +170,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px; 
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .tech-skills {
@@ -175,19 +179,19 @@ body {
 
 .tech-skills-list,
 .soft-skill-list {
-    color: #ffffff;
+    color: #595959;
     padding: 0;
     margin-left: 17px;
 }
 
 .tech-skill-item,
 .soft-skill-item {
-    color: #ffffff;
+    color: #595959;
 }
 
 .tech-skill-text,
 .soft-skill-text {
-    color: #ffffff;
+    color: #595959;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
